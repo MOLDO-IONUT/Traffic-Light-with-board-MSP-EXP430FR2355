@@ -1,0 +1,15 @@
+		           MSP430FR2355
+		
+	     				    | --> P2.3 --> Afisare led aprins UART
+//            ---------------
+	     |			    	    |3V3
+//           |                  	GND |P1.5 --> SEGMENT_E
+	     |	          SEGMENT_D <-- P1.4|P1.6 --> SEGMENT_F
+//           |               ROSU_P <-- P5.3|P1.7 --> SEGMENT_G
+//           |    	   GALBEN_M <-- P5.1|P3.6
+//     	     |               ROSU_M <-- P5.0|P5.2 --> VERDE_M 
+//           |             GALBEN_M <-- P5.4|P4.5
+//           |            SEGMENT_A <-- P1.1|P3.4-->
+//           |                  	P3.5|P1.3 --> SEGMENT_C
+	     |		     BUZZER <-- P3.1|P1.2 --> SEGMENT_B
+	    GND		       
